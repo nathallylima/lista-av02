@@ -7,7 +7,7 @@ while True:
     try:
         n = int(input('Digite um número: '))
         if n < 0:
-              print("Número inválido. Digite um número inteiro positivo.")
+              print("Número inválido. Digite um número inteiro não negativo.")
         else:
             resultado = fatorial(n)
             print(f'O fatorial de {n} é {resultado}')
