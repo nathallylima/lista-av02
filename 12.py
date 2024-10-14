@@ -1,9 +1,6 @@
-##Crie uma função que converta uma temperatura de Celsius para Fahrenheit e
-##vice-versa.
-
 def conversao():
     print('\n CONVERSOR DE TEMPERATURAS \n')
-    
+
     while True:
         try:
             temperatura = int(input('\nEscolha uma Opção: \n'
