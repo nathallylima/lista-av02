@@ -1,6 +1,3 @@
-## Crie uma função que receba uma string e retorne o número de vogais
-## presentes na string.
-
 def contagem(palavra):
     vogais = ['a', 'á', 'à', 'â', 'ã', 'e', 'é', 'ê', 'i', 'í', 'o', 'ó', 'ô', 'õ', 'u', 'ú']
     contagem_vogais = 0
