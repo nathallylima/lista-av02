@@ -1,6 +1,3 @@
-##Crie uma função que receba uma lista de números e retorne a soma de todos
-##os elementos da lista.
-
 def soma():
     while True:
         try:
