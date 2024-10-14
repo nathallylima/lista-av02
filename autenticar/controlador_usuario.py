@@ -20,11 +20,11 @@ def autenticar(login, senha):
 
     autenticado = False
 
-    for usuario in usuarios:
-        if usuario["username"] == login and usuario["password"] == senha:
-            print('Usuário autenticado com sucesso.')
-            autenticado = True
-            break
+ 
+    if usuarios["username"] == login and usuarios["password"] == senha:
+        print('Usuário autenticado com sucesso.')
+        autenticado = True
+        
 
     if autenticado == False:
         print('Usuário ou senha incorreto.')
