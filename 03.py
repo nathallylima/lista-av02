@@ -1,7 +1,3 @@
-""" Crie uma calculadora utilizando funções
-a. Obrigatoriamente você deve ter funções: somar; subtrair; multiplicar e dividir
-i. Todas recebem 2 números como parâmetro de entrada """
-
 def soma(a, b):
     return a + b
 
