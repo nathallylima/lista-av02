@@ -41,7 +41,7 @@ def calculadora():
             if operacao == 5:
                 print("Encerrando o programa...")
                 break
-        except (ValueError and ZeroDivisionError):
+        except ZeroDivisionError:
             print('Não é possível dividir um número por zero.')
         
 calculadora()
